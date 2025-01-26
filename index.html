@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="calculator">
+        <div class="display" id="display">0</div>
+        <div class="buttons">
+            <button class="clear" onclick="clearDisplay()">C</button>
+            <button onclick="appendNumber(7)">7</button>
+            <button onclick="appendNumber(8)">8</button>
+            <button onclick="appendnUmber(9)">9</button>
+            <button class="operator" onclick="setOperator('+')">+</button>
+            <button onclick="appendNumber(4)">4</button>
+            <button onclick="appendNumber(5)">5</button>
+            <button onclick="appendnUmber(6)">6</button>
+            <button class="operator" onclick="setOperator('-')">-</button>
+            <button onclick="appendNumber(1)">1</button>
+            <button onclick="appendNumber(2)">2</button>
+            <button onclick="appendnUmber(3)">3</button>
+            <button class="operator" onclick="setOperator('*')">*</button>
+            <button onclick="appendNumber(0)">0</button>
+            <button onclick="appendDecimal()">.</button>
+            <button class="operator" onclick="calculator()">=</button>
+            <button class="operator" onclick="setOperator('/')">/</button>
+        </div>
+    </div>
     <script src="javascript.js"></script>
 </body>
 </html>
